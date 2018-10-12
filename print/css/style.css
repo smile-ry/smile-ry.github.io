@@ -248,29 +248,126 @@ nav{
   	-o-background-size: cover;
   	-moz-background-size: cover;
   	-ms-background-size: cover;
+  	overflow: hidden;
 }
 .wave{
-	width: 20rem;
+	margin: 0 auto;
+	width: 10rem;
 	height: 7.5px;
 	background-size: 15px 15px;
 	background-repeat:repeat-x;
-	background-image: linear-gradient(135deg, transparent 45%, red 55%,transparent 60%),linear-gradient(45deg,transparent 45%,red 55%,transparent 60%);
+	background-image: linear-gradient(135deg, transparent 45%, #DA251D 55%,transparent 60%),linear-gradient(45deg,transparent 45%,#DA251D 55%,transparent 60%);
 }
+.cn{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+.pbox{
+	width: 100px;
+	height: 100px;
+	background-color: #32302F;
+	text-align: center;
+	line-height: 40px;
+	padding: 10px;
+	float: left;
+	
+}
+.pbox:hover,.adv .active{
+	background-color: #C60000;
+}
+.adv .active:hover{
+	background-color: #32302F;
+}
+.pbox:hover .ps2,.adv .active .ps2{
+	color: #EE3333;
+	border-top-color: #EE3333;
+}
+.pbox span{
+	display: inline-block;
+}
+.ps1{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.ps2,.adv .active:hover .ps2{
+	border-top: 1px solid #616161;
+	font-size: 16px;
+	color: #616161;
+}
+.adiv{
+	background-color: #FFFFFF;
+	height: 220px;
+	width: 425px;
+	float: left;
+	padding: 20px 25px;
+	line-height: 240%;
+}
+.red{
+	color: #C60000;
+	font-size: 20px;
+	font-weight: bold;
+}
+.li li{
+	list-style: disc;
+	color: #C60000;
+	margin-left: 20px;
+	line-height: 250%;
+}
+.li li span{
+	color: #666666;
+}
+.adv-we{
+	float: left;
+	margin-top: 30px;
+}
+.about{
+	padding: 50px;
+}
+.ab{
+	float: left;
+	height: 347px;
+	background-color: #FFFFFF;
+	padding: 20px;
+	line-height: 150%;
+	font-size: 16px;
+}
+.hong{
+	font-size: 18px;
+	font-weight: bold;
+	color: #DA251D;
+	margin-bottom: 30px;
+}
+.tu{
+	float: left;
+}
+.full-content{
+	padding: 50px;
+}
+.container{
+	overflow: hidden;
+}
+.menu { 
 
 
+}
+.menu ul{
 
+}
+ .menu li { 
+	float:left; 
+	text-align:center; 
+	cursor:pointer;   
+	color: #FFFFFF;
+	background-color:#454545;
+	height:48px;
+	line-height: 48px;
 
-
-
-
-
-
-
-
-
-
-
-
+}
+ .tab_menu li.hover,.tab_menu li.selected {
+	color:#FFF;
+	background-color:#f60;
+}
 
 
 
