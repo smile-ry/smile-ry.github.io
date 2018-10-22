@@ -536,7 +536,7 @@ a.more{
 .right{
 	background-color: #FFFFFF;
 	padding: 10px;
-	min-height: 500px;
+	min-height: 1000px;
 	float: left;
 	position: relative;
 }
@@ -559,10 +559,17 @@ a.more{
 	background-color: #FF6C16;
 	color: #FFFFFF;
 }
-
-
-
-
+.right .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.right .thumbnail{
+	border: none;
+	padding: 0;
+}
+.right .caption{
+	text-align: center;
+}
 
 
 
