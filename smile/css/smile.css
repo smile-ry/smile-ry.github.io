@@ -1,0 +1,35 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,pre,figure,fieldset,blockquote,input,keygen,textarea,button,select{
+	margin: 0;
+}
+ul,ol,th,td,fieldset,legend,input,select,option,textarea,button,caption{
+	padding: 0;
+}
+body{
+	font: 12px "微软雅黑","宋体","arial narrow","verdana, geneva, arial, helvetica, sans-serif";
+	background: #fff;
+	color: #555;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #5a5a5a;
+}
+img{
+	border: 0;
+}
+button{
+	cursor: pointer;
+}
+/*清除浮动 clearfix*/
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;	
+}
+.clearfix{
+	zoom: 1;
+}
