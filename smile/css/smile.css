@@ -33,3 +33,9 @@ button{
 .clearfix{
 	zoom: 1;
 }
+
+nav{
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #f00;
+}
