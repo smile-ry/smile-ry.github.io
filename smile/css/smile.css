@@ -4,10 +4,17 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,pre,figure,fieldset,blockquote,input,key
 ul,ol,th,td,fieldset,legend,input,select,option,textarea,button,caption{
 	padding: 0;
 }
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{
+	display:block;
+}
 body{
 	font: 12px "微软雅黑","宋体","arial narrow","verdana, geneva, arial, helvetica, sans-serif";
 	background: #fff;
 	color: #555;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 ul,ol{
 	list-style: none;
@@ -22,7 +29,7 @@ img{
 button{
 	cursor: pointer;
 }
-/*清除浮动 clearfix*/
+/***清除浮动 clearfix***/
 .clearfix:before,.clearfix:after{
 	content: "";
 	display: block;
