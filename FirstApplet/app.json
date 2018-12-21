@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/newslist/newslist",
     "pages/index/index"
   ],
   "window":{

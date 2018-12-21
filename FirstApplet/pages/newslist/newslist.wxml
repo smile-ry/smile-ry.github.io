@@ -1,0 +1,37 @@
+<view><!-- 页面json配置 只能配置window属性，所以页面json配置中不需要写window -->
+  <!-- 轮播图 swiper组件 -->
+  <!-- 当属性值涉及到 布尔类型的否定式 需加 {{}}  eg:{{false}} -->
+  <swiper vertical='{{false}}' indicator-dots='ture' autoplay='true' interval='2000'>
+  <!-- vertical页面是否纵向滚动 indicator-dots面板指示点，autoplay是否自动滚动，interval滚动时间，默认5000毫秒 -->
+    <swiper-item>
+      <image src='/images/wx.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/vr.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/iqiyi.png'></image>
+    </swiper-item>
+  </swiper>
+  <!-- 轮播图 结束 -->
+  <!-- 新闻列表 -->
+  <!-- 动态获取内容 -->
+  <block wx:for="{{posts_key}}" wx:key="posts_key" wx:for-item="item"> 
+    <view class='post-container'>
+      <view class='post-author-date'>
+        <!-- wx:if 控制图片显隐  -->
+        <image class='post-author' src='{{item.author_img}}'></image>
+        <text class='post-date'>{{item.date}}</text>
+      </view>
+      <text class='post-title'>{{item.title}}</text>
+      <image class='post-image' src='{{item.post_img}}'></image>
+      <text class='post-title'>{{item.content}}</text>
+      <view class='post-like'>
+        <image class='post-like-image' src='../../images/icon/chat.png'></image>
+        <text class='post-like-font'>{{item.view_num}}</text>
+        <image class='post-like-image' src='../../images/icon/view.png'></image>
+        <text class='post-like-font'>{{item.collect_num}}</text>
+      </view>
+    </view>
+  </block>
+</view>
