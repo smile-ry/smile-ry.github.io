@@ -1,66 +1,16 @@
-// pages/index/index.js
 Page({
+  onTap:function(){
+   
+    //wx.navigateTo({//从父级页面跳转到子页面，只能有5级，上一级页面呈现隐藏状态
+    //  url:"../newslist/newslist"
+    //});
+    
 
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+    wx.redirectTo({//跳转到另一个主页面,两个页面之间平行跳转,上一个页面呈现关闭状态
+      url: '../newslist/newslist',
+    })
+    //console.log("onTap")
+    
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+  
 })

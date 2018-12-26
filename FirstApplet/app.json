@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/newslist/newslist",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/newslist/newslist"
   ],
   "window":{
     "navigationBarBackgroundColor": "#b3d4db"
