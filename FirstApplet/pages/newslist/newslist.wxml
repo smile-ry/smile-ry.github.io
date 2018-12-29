@@ -19,6 +19,7 @@
   <!-- 新闻列表 -->
   <!-- 动态获取内容 -->
   <block wx:for="{{posts_key}}" wx:key="posts_key" wx:for-item="item">
+  <!-- 使用 is 属性，声明需要的使用的模板，然后将模板所需要的 data 传入 -->
    <template is="postItem" data="{{item}}" />
   </block>
 </view>

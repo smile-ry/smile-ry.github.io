@@ -1,4 +1,4 @@
-var postsData = require("../../data/post-data.js") //获取数据库中的数据
+var postsData = require("../../data/newslist-data.js") //获取数据库中的数据
 Page({
   /**
    * 页面的初始数据
