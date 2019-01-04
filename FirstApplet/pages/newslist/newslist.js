@@ -18,5 +18,11 @@ Page({
     }); 
 
   },
+  onNewsTap:function(event){
+    var newsId=event.currentTarget.dataset.newsid;//newsid 要小写
+    wx.navigateTo({
+      url: 'newsshow/newsshow',
+    })
+  },
 
 })
