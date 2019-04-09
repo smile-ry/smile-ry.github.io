@@ -1,0 +1,70 @@
+.df{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	width: 100%;
+	height: 88px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+	flex-direction: row;
+}
+.logo .cn{
+	display: block;
+	font-weight: bold;
+	font-size: 22px;
+	color: #464747;
+}
+.logo .en{
+	display:inline-block;
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.link a{
+	display: inline-block;
+	width: 24px;
+}
+.link a img{
+	width:100%;
+}
+.links{
+	width: 100%;
+	height: 57px;
+	display: flex;
+	justify-content: space-between;
+}
+.links li{
+	width: 105px;
+	text-align: center;
+}
+.links li a{
+	font-size: 16px;
+	color: #696969;
+}
+.links li a:hover{
+	color: #DA251D;
+}
+.search input{
+	border: 0;
+	width: 200px;
+	height: 27px;
+	line-height: 27;
+	border-bottom: 1px solid #e5e5e5;
+	outline: none;
+}
+.search form .submit{
+	background: url(../img/serchs.png);
+	vertical-align: middle;
+	width: 27px;
+	background-size: 100% 100%;
+	cursor: pointer;
+    font-size: 0;
+    border: 0;
+    margin: 0;
+}

@@ -25,6 +25,7 @@ a{
 }
 img{
 	border: 0;
+	width: 100%;
 }
 button{
 	cursor: pointer;
@@ -40,9 +41,18 @@ button{
 .clearfix{
 	zoom: 1;
 }
-
+/*顶部导航*/
 nav{
 	max-width: 1200px;
 	margin: 0 auto;
 	border: 1px solid #f00;
+}
+.logo{
+	float: left;
+}
+.nav{
+	float: right;
+}
+.nav li{
+	float: left;
 }
