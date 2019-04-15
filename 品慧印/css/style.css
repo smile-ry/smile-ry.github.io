@@ -80,3 +80,19 @@
     line-height: 2rem;
     color: #666;
 }
+.carousel-item img{
+	width: 100%;
+}
+.carousel-indicators li{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-color: #b9b9b9;
+}
+.carousel-indicators .active,.carousel-indicators li:hover{
+	background-color: #DA251D;
+}
