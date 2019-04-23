@@ -96,3 +96,38 @@
 .carousel-indicators .active,.carousel-indicators li:hover{
 	background-color: #DA251D;
 }
+
+/* 产品中心 */
+.product{
+	width: 100%;
+	height: auto;
+	padding: 60px 0;
+	background-color: #f8f8f8;
+	overflow: hidden;
+}
+.cp{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*** 标题样式 ****/
+.titles{
+	text-align: center;
+	font-size: 24px;
+	margin: 0 auto 60px;
+}
+.titles .en{
+	display: inline-block;
+	color: #787878;
+}
+.titles .cn{
+	display: inline-block;
+	border-bottom: 1px solid #da251d;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 8px;
+}
+/* 产品列表轮播 */
+.cp .cp-ul{
+	bottom: -40px;
+}
